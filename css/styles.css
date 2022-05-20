@@ -6,9 +6,12 @@
 /* вторичный цвет фона #F5F4FA */
 /* цвет фона подвала #2F303A */
 :root {
-     --primaty-text-color: #757575;
-     --title-text-color:   #212121;
-     --accent-color:       #2196F3;
+     --primaty-text-color:         #757575;
+     --secondary-background-color: #F5F4FA;
+     --title-text-color:           #212121;
+     --accent-color:               #2196F3;
+     --color-white:                #FFFFFF;
+     --color-footer:               #2F303A;
 
 }
 
@@ -42,18 +45,66 @@ color: var(--title-text-color);
         line-height: 31px;
        
 }
-/* убирает точки в списке */
+/* прибирає крапки в навігагії */
 .list {
     list-style: none;
 }
 
-.link {
+/* меню навігації */
+.nav-link, .contact {
     color: var(--title-text-color);
-    /* text-decoration: none; */
+    text-decoration: none; 
 }
-.link:hover {
+.nav-link:hover, .contact:hover {
     color: var(--accent-color);
 }
-.link:focus {
+.nav-link:focus, .contact:focus {
     color: var(--accent-color);
+}
+
+.site-nav .nav-link.current {
+    color:var(--accent-color);
+}
+
+/* секція Hero */
+.section-hero {
+    background-color: var(--color-footer);
+}
+/* секція Наша команда */
+.section-team {
+background-color: var(--secondary-background-color) ;
+
+}
+
+/* button */
+.button {
+    background-color: var(--accent-color);
+    color: var(--color-white);
+}
+.button.primery{
+    background-color: var(--accent-color);
+    color: var(--color-white);
+
+
+
+}
+ .button.secondary {
+    background-color: var(--secondary-background-color);
+    color: var(--title-text-color);
+
+ }
+
+/* футер */
+.footer-contact {
+    color: var(--color-white);
+    text-decoration: none;
+}
+
+footer {
+    background-color:var(--color-footer) ;
+    color: var(--color-white);
+     
+}
+.logo3 {
+    color: var(--color-white);
 }
