@@ -1,0 +1,59 @@
+/* цвет текста заголовка h2 #212121 */
+/* цвет текста заголовка h1 #FFFFFF */
+/* цвет обычного текста #757575 */
+/* акцент синий #2196F3 */
+/* белый цвет #FFFFFF */
+/* вторичный цвет фона #F5F4FA */
+/* цвет фона подвала #2F303A */
+var {
+     --primaty-text-color: #757575;
+     --title-text-color:   #212121;
+     --accent-color:       #2196F3;
+
+}
+
+body {
+    background-color:#FFFFFF ;
+    color: #757575;
+}
+h1 {
+    color: #FFFFFF;
+}
+
+h2,
+h3 {
+    color: #212121;
+}
+
+/* логотип */
+.logo1 {
+    color:#2196F3;
+    text-decoration: none;
+}
+
+.logo1>.logo2 {
+color:#212121;
+}
+
+.logo1, .logo2{
+   
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 31px;
+       
+}
+/* убирает точки в списке */
+.list {
+    list-style: none;
+}
+
+.link {
+    color: var(--title-text-color);
+    /* text-decoration: none; */
+}
+.link: hover {
+    color: var(--accent-color);
+}
+.link: focus{
+    color: var(--accent-color);
+}
