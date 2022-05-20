@@ -5,7 +5,7 @@
 /* белый цвет #FFFFFF */
 /* вторичный цвет фона #F5F4FA */
 /* цвет фона подвала #2F303A */
-var {
+:root {
      --primaty-text-color: #757575;
      --title-text-color:   #212121;
      --accent-color:       #2196F3;
@@ -14,7 +14,7 @@ var {
 
 body {
     background-color:#FFFFFF ;
-    color: #757575;
+    color: var(--primaty-text-color);
 }
 h1 {
     color: #FFFFFF;
@@ -22,17 +22,17 @@ h1 {
 
 h2,
 h3 {
-    color: #212121;
+    color: var(--title-text-color) ;
 }
 
 /* логотип */
 .logo1 {
-    color:#2196F3;
+    color: var(--accent-color);
     text-decoration: none;
 }
 
 .logo1>.logo2 {
-color:#212121;
+color: var(--title-text-color);
 }
 
 .logo1, .logo2{
@@ -51,9 +51,9 @@ color:#212121;
     color: var(--title-text-color);
     /* text-decoration: none; */
 }
-.link: hover {
+.link:hover {
     color: var(--accent-color);
 }
-.link: focus{
+.link:focus {
     color: var(--accent-color);
 }
