@@ -142,6 +142,7 @@ color: var(--title-text-color);
 footer {
     background-color:var(--color-footer) ;
     color: var(--color-white);
+    font-style: normal;
      
 }
 .logo-end-wh {
