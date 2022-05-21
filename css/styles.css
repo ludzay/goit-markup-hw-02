@@ -136,13 +136,15 @@ color: var(--title-text-color);
     color: var(--color-white-transparency);
     text-decoration: none;
     line-height: 1.71;
+    font-style: normal;
       
 }
 
 footer {
     background-color:var(--color-footer) ;
     color: var(--color-white);
-    font-style: normal;
+    
+    
      
 }
 .logo-end-wh {
