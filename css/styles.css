@@ -124,6 +124,10 @@ color: var(--title-text-color);
     line-height: 1.88;
     letter-spacing: 0.06em;
     cursor: pointer;
+
+}
+.button:hover{
+    background-color: #188CE8;
 }
 /* .button.primery{
     background-color: var(--accent-color);
