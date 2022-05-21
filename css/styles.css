@@ -144,9 +144,13 @@ footer {
     background-color:var(--color-footer) ;
     color: var(--color-white);
     
-    
-     
+
 }
+   
+.adress-footer {
+    font-style: normal;
+}
+
 .logo-end-wh {
     color: var(--color-white);
 }
