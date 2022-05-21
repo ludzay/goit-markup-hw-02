@@ -1,10 +1,4 @@
-/* цвет текста заголовка h2 #212121 */
-/* цвет текста заголовка h1 #FFFFFF */
-/* цвет обычного текста #757575 */
-/* акцент синий #2196F3 */
-/* белый цвет #FFFFFF */
-/* вторичный цвет фона #F5F4FA */
-/* цвет фона подвала #2F303A */
+
 :root {
      --primaty-text-color:         #757575;
      --secondary-background-color: #F5F4FA;
@@ -71,10 +65,10 @@ color: var(--title-text-color);
     line-height: 1.14;
     letter-spacing: 0.02em;
 }
-.nav-link:hover, .contact:hover {
+.nav-link:hover, .contact:hover, .footer-contact:hover {
     color: var(--accent-color);
 }
-.nav-link:focus, .contact:focus {
+.nav-link:focus, .contact:focus, .footer-contact:focus {
     color: var(--accent-color);
 }
 
@@ -129,11 +123,12 @@ color: var(--title-text-color);
     font-size: 16px;
     line-height: 1.88;
     letter-spacing: 0.06em;
+    cursor: pointer;
 }
-.button.primery, .button-portfolio.primary {
+/* .button.primery{
     background-color: var(--accent-color);
     color: var(--color-white);
-}
+} */
  
 
 /* футер */
@@ -154,18 +149,31 @@ footer {
 }
 
 /* portfolio.html */
+.title-portfolio {
+    color:var(--color-white);
+}
 .button-portfolio {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
     text-align: center;
-}
-
-.button-portfolio.secondary {
     background-color: var(--secondary-background-color);
     color: var(--title-text-color);
+    cursor: pointer;
 
 }
+
+.button-portfolio:focus{
+    color: var(--color-white);
+    background-color: var(--accent-color);
+
+}
+.button-portfolio:hover {
+    color: var(--color-white);
+    background-color: var(--accent-color);
+
+}
+
 .title-portfolio {
     font-size: 18px;
     line-height: 2;
