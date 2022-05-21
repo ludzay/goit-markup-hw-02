@@ -156,7 +156,7 @@ footer {
 }
 
 /* portfolio.html */
-.title-portfolio {
+    .title-portfolio {
     color:var(--color-white);
 }
 .button-portfolio {
@@ -181,7 +181,7 @@ footer {
 
 }
 
-.title-portfolio {
+.name-portfolio {
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
