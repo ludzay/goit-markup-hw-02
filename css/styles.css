@@ -40,17 +40,17 @@ h2{
    }
 
 /* логотип */
-.logo1{
+.logo-beg{
     color: var(--accent-color);
     
     
 }
 
-.logo2 {
+.logo-end {
 color: var(--title-text-color);
 }
 
-.logo1, .logo2, .logo3 {
+.logo-beg, .logo-end, .logo-end-wh {
     text-decoration: none;
     font-family: Raleway, sans-serif;
     font-weight: 700;
@@ -149,7 +149,7 @@ footer {
     color: var(--color-white);
      
 }
-.logo3 {
+.logo-end-wh {
     color: var(--color-white);
 }
 
@@ -165,4 +165,17 @@ footer {
     background-color: var(--secondary-background-color);
     color: var(--title-text-color);
 
+}
+.title-portfolio {
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    text-align: left;
+}
+.text-portfolio {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.88;
+    
+    
 }
