@@ -19,13 +19,15 @@ body {
     letter-spacing: 0.03em;
 }
 
-h2,
-h3 {
+.specifics, .title-specifics, .section-app, .team-title, .title-team, .name-portfolio
+/* h2,h3 */
+ {
     color: var(--title-text-color) ;
     
 }
-
-h2{
+.specifics, .section-app, .team-title, .name-portfolio
+/* h2 */
+{
     font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
