@@ -14,7 +14,6 @@ body {
     background-color:#FFFFFF ;
     color: var(--primaty-text-color);
     font-family: Roboto, sans-serif;
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -80,6 +79,8 @@ color: var(--title-text-color);
 .section-hero {
     background-color: var(--color-footer);
     color: var(--color-white);
+    
+    font-family: 'Roboto';
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -192,7 +193,6 @@ footer {
     text-align: left;
 }
 .text-portfolio {
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.88;
     
