@@ -11,7 +11,7 @@
 }
 
 body {
-    background-color:#FFFFFF ;
+    background-color: var(--color-white);
     color: var(--primaty-text-color);
     font-family: Roboto, sans-serif;
     font-size: 14px;
@@ -58,7 +58,7 @@ color: var(--title-text-color);
 }
 
 /* меню навігації */
-.nav-link, .contact {
+.nav-link  {
     color: var(--title-text-color);
     text-decoration: none; 
     font-weight: 500;
@@ -66,6 +66,10 @@ color: var(--title-text-color);
     line-height: 1.14;
     letter-spacing: 0.02em;
 }
+.contact {
+ color: var(--primaty-text-color);
+}
+
 .nav-link:hover, .contact:hover, .footer-contact:hover {
     color: var(--accent-color);
 }
@@ -78,7 +82,7 @@ color: var(--title-text-color);
 }
 
 /* секція Hero */
-.section-hero {
+.hero-title {
     background-color: var(--color-footer);
     color: var(--color-white);
     
