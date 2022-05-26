@@ -67,7 +67,12 @@ color: var(--title-text-color);
     letter-spacing: 0.02em;
 }
 .contact {
- color: var(--primaty-text-color);
+    color: var(--primaty-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-decoration: none;
 }
 
 .nav-link:hover, .contact:hover, .footer-contact:hover {
@@ -136,6 +141,8 @@ color: var(--title-text-color);
 .button:hover{
     background-color: #188CE8;
 }
+
+
 /* .button.primery{
     background-color: var(--accent-color);
     color: var(--color-white);
@@ -192,6 +199,10 @@ footer {
 
 }
 
+.link-portfolio{
+    text-decoration: none;
+}
+
 .name-portfolio {
     font-size: 18px;
     line-height: 2;
@@ -202,5 +213,8 @@ footer {
     font-size: 16px;
     line-height: 1.88;
     
+    
+}
+.name-portfolio, .text-portfolio {
     
 }
